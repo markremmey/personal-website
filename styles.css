@@ -1,23 +1,27 @@
-/* Reset some default browser styles */
-body, ul, h1, h2, p {
-    margin: 0;
-    padding: 0;
+#centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 56px;
 }
 
-h1 {
-    font-size: 2em;       /* Makes the font size 3 times the base font size */
-    text-align: center;   /* Centers the title on the page */
-    margin-top: 50px;     /* Adds some space at the top for breathing room */
-    margin-bottom: 50px;  /* Adds some space below the title for separation */
-    font-weight: bold;    /* Makes the font weight bold */
+.links a {
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px; /* Adjust spacing as needed */
+    text-decoration: none;
+    color: blue; /* Choose your preferred color */
+    flex-direction: row;
+    font-size: 36px;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    margin: 0 50px
-}
-
-section {
-    padding: 10px;
-    min-height: 150px;
+#content {
+    font-size: 24px;
+    width: 35%;
+    align-items: center;
+    justify-content: center;
 }
